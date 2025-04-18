@@ -1,38 +1,52 @@
-/* Feed.css */
 .feed-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.user-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 10px;
-    max-width: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.avatar {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.user-info {
-    text-align: center;
-}
-
-.username {
-    font-size: 16px;
+    padding: 20px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feed-title {
+    font-size: 2rem;
     font-weight: bold;
-}
-
-.email {
-    font-size: 14px;
-    color: #555;
-}
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .loading-text, .error-text, .no-users {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  .loading-text {
+    color: #4a90e2;
+  }
+  
+  .error-text {
+    color: red;
+  }
+  
+  .no-users {
+    color: #999;
+  }
+  
+  .user-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
